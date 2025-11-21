@@ -13,3 +13,21 @@ let a = 10;
 let b = 5;
 let sum = a+b;
 let product = a*b;
+//
+//// normal function 
+function sayHi() {
+  console.log("Hi");
+}
+
+
+sayHi();
+
+
+// function expression 
+var sayBye= function(){
+  console.log('bye');
+}
+sayBye();
+
+
+
