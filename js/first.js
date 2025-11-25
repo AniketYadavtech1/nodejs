@@ -1,33 +1,4 @@
-console.log("KG Coding is the best");
+const math = require("./math");
 
-const fs = require("fs");
-
-
-fs.writeFile("output.text","Writing File",(err)=> {
-  if(err) console.log("Error occurred");
-  else console.log("File Writtern Successfully");
-})
-
-
-let a = 10;
-let b = 5;
-let sum = a+b;
-let product = a*b;
-//
-//// normal function 
-function sayHi() {
-  console.log("Hi");
-}
-
-
-sayHi();
-
-
-// function expression 
-var sayBye= function(){
-  console.log('bye');
-}
-sayBye();
-
-
-
+// console.log("Math Value", math.addFn(2,4), math.subfn(10, 8));
+console.log("Math Value is",math);
