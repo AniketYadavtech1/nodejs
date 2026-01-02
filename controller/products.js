@@ -9,9 +9,13 @@ const getCategory = async (req,res)=>{
     res.status(200).json({msg:
         "I is all Category"});
 }
+// const getCategory = async (req,res)=>{
+//     res.status(200).json({msg:
+//         "I is all Category"});
+// }
  // coment
  // comment 
- 
+
 
 
 module.exports = {getAllProducts, getAllProductsTesting, getCategory};
